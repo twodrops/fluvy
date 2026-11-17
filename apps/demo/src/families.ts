@@ -106,6 +106,7 @@ export const CARD_GROUPS: readonly CardGroup[] = [
       'template',
       'light',
       'lights',
+      'rounds',
       'slider',
       'thermostat',
       'cover',

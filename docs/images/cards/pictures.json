@@ -89,6 +89,11 @@
     "width": 784,
     "height": 616
   },
+  "rounds": {
+    "example": "68479628e45c",
+    "width": 784,
+    "height": 352
+  },
   "thermostat": {
     "example": "62b36e77c2d8",
     "width": 784,

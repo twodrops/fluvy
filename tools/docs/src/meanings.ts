@@ -525,6 +525,8 @@ export const MEANINGS: Readonly<Record<string, string>> = {
     'Shows every quick action’s state in its round, unless the action says otherwise.',
   'room.temperature_entity':
     'The room’s temperature sensor, or a thermostat; left out, the area’s.',
+  'rounds.items[]': 'The entities, in the order they are drawn.',
+  'rounds.show_count': 'Says on the head’s line how many are on.',
   'scene.entity': 'The scene, script or button the tile runs.',
   'scenes.columns': 'How many scenes stand in a row.',
   'scenes.tint': 'When each scene’s tile shows its colour.',

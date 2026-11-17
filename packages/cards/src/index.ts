@@ -27,6 +27,7 @@ import { FluvyTodoCard } from './todo/todo-card.js';
 import { FluvyUpdatesCard } from './updates/updates-card.js';
 import { FluvyRoomCard, loadQuickActions } from './room/room-card.js';
 import { FluvyLightsCard } from './lights/lights-card.js';
+import { FluvyRoundsCard } from './rounds/rounds-card.js';
 import { FluvyMapCard } from './map/map-card.js';
 import { defineStrategies } from './strategy/define.js';
 import { ALERTS_FAMILY } from './alerts-family.js';
@@ -65,6 +66,7 @@ const CATALOGUE: readonly CatalogueEntry[] = [
   ['fluvy-tiles-card', FluvyTilesCard],
   ['fluvy-light-card', FluvyLightCard],
   ['fluvy-lights-card', FluvyLightsCard],
+  ['fluvy-rounds-card', FluvyRoundsCard],
   ['fluvy-entities-card', FluvyEntitiesCard],
   ['fluvy-fan-card', FluvyFanCard],
   ['fluvy-sensor-card', FluvySensorCard],

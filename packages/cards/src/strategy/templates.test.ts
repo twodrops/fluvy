@@ -265,6 +265,7 @@ describe('the dashboard templates', () => {
       'custom:fluvy-vehicle-card',
       'custom:fluvy-expander-card',
       'custom:fluvy-swipe-card',
+      'custom:fluvy-rounds-card',
     ]);
     expect(
       CATALOGUE.map(([tag]) => `custom:${tag}`).filter(

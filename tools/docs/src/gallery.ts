@@ -135,6 +135,20 @@ export const GALLERY: Readonly<Record<string, Example>> = {
     },
     variants: { chips: {}, tiles: {} },
   },
+  'fluvy-rounds-card': {
+    config: {
+      type: 'custom:fluvy-rounds-card',
+      title: 'Quick picks',
+      items: [
+        'switch.kitchen_light',
+        'switch.washer',
+        'binary_sensor.kitchen_window',
+        'binary_sensor.motion_hall',
+        'lock.front_door',
+        'switch.ghost',
+      ],
+    },
+  },
   'fluvy-thermostat-card': {
     config: { type: 'custom:fluvy-thermostat-card', entity: 'climate.living' },
     variants: { compact: {}, ruler: {} },
